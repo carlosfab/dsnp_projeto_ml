@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = "Projeto de Machine Learning do DSNP"
+authors = ["Carlos Melo <carlos@sigmoidal.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<=3.10"
+pandas = "^2.1.1"
+tqdm = "^4.66.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
